@@ -13,6 +13,9 @@
 		4D6E427D1C0DD28F00BEE357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E427B1C0DD28F00BEE357 /* Main.storyboard */; };
 		4D6E427F1C0DD28F00BEE357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E427E1C0DD28F00BEE357 /* Assets.xcassets */; };
 		4D6E42821C0DD28F00BEE357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6E42801C0DD28F00BEE357 /* LaunchScreen.storyboard */; };
+		4DB431331C153D7400DCCB2F /* StarWars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB431321C153D7400DCCB2F /* StarWars.mp3 */; };
+		4DB431351C15426F00DCCB2F /* SurMaRoute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB431341C15426F00DCCB2F /* SurMaRoute.mp3 */; };
+		4DB431371C15427700DCCB2F /* ReineNeige.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB431361C15427700DCCB2F /* ReineNeige.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4D6E427E1C0DD28F00BEE357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6E42811C0DD28F00BEE357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6E42831C0DD28F00BEE357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB431321C153D7400DCCB2F /* StarWars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StarWars.mp3; sourceTree = "<group>"; };
+		4DB431341C15426F00DCCB2F /* SurMaRoute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SurMaRoute.mp3; sourceTree = "<group>"; };
+		4DB431361C15427700DCCB2F /* ReineNeige.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ReineNeige.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				4D6E42751C0DD28F00BEE357 /* AppDelegate.swift */,
 				4D6E42771C0DD28F00BEE357 /* FirstViewController.swift */,
 				4D6E42791C0DD28F00BEE357 /* SecondViewController.swift */,
+				4DB431321C153D7400DCCB2F /* StarWars.mp3 */,
+				4DB431341C15426F00DCCB2F /* SurMaRoute.mp3 */,
+				4DB431361C15427700DCCB2F /* ReineNeige.mp3 */,
 				4D6E427B1C0DD28F00BEE357 /* Main.storyboard */,
 				4D6E427E1C0DD28F00BEE357 /* Assets.xcassets */,
 				4D6E42801C0DD28F00BEE357 /* LaunchScreen.storyboard */,
@@ -126,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6E42821C0DD28F00BEE357 /* LaunchScreen.storyboard in Resources */,
+				4DB431331C153D7400DCCB2F /* StarWars.mp3 in Resources */,
 				4D6E427F1C0DD28F00BEE357 /* Assets.xcassets in Resources */,
+				4DB431371C15427700DCCB2F /* ReineNeige.mp3 in Resources */,
 				4D6E427D1C0DD28F00BEE357 /* Main.storyboard in Resources */,
+				4DB431351C15426F00DCCB2F /* SurMaRoute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				4D6E42881C0DD28F00BEE357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
